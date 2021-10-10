@@ -1,0 +1,4 @@
+Install as ~/klipper-config
+Then link:
+  ln -s ./klipper-config/master printer.cfg
+
