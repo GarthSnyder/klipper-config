@@ -1,3 +1,30 @@
+[printer]
+kinematics: cartesian
+max_velocity: 300
+# max_accel: 3200
+max_accel: 1200
+max_z_velocity: 28
+max_z_accel: 600
+# Default: half of max_accel
+# max_accel_to_decel: 1250
+# Default: 5
+#square_corner_velocity: 7.5
+#square_corner_velocity: 6.0
+square_corner_velocity: 6.5
+
+[respond]
+
+[gcode_arcs]
+
+[idle_timeout]
+#gcode:
+#   A list of G-Code commands to execute on an idle timeout. See
+#   docs/Command_Templates.md for G-Code format. The default is to run
+#   "TURN_OFF_HEATERS" and "M84".
+#timeout: 600
+#   Idle time (in seconds) to wait before running the above G-Code
+#   commands. The default is 600 seconds.
+
 [include /home/pi/klipper-config/*.cfg]
 
 #*# <---------------------- SAVE_CONFIG ---------------------->
