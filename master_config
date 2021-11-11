@@ -12,6 +12,7 @@ max_z_accel: 600
 #square_corner_velocity: 7.5
 #square_corner_velocity: 6.0
 square_corner_velocity: 6.5
+# square_corner_velocity: 1.0
 
 [respond]
 
